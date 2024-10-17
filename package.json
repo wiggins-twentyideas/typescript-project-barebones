@@ -1,0 +1,14 @@
+{
+  "name": "typescript-barebones",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc --project .",
+    "watch": "tsc --project . --watch",
+    "clean": "rm bin/*",
+    "start": "npm run build && node bin/index.js"
+  },
+  "dependencies": {
+    "typescript": "^5.6.3",
+    "axios": "^1.7.7"
+  }
+}
