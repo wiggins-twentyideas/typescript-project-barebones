@@ -5,4 +5,6 @@ async function main() {
     await hello.world()
 }
 
-void main()
+(async () => {
+    await main()
+})()
